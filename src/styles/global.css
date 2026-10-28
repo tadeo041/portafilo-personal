@@ -1,1 +1,96 @@
 @import "tailwindcss";
+
+@theme {
+  /* =========================================
+     PRIMARIOS Y SECUNDARIOS
+     ========================================= */
+  --color-primario: #1D4ED8;
+  --color-secundario: #60A5FA;
+
+  /* =========================================
+     COLORES FONDOS
+     ========================================= */
+  --color-bg-principal: #F8F9FF;
+  --color-bg-secundario: #FFFFFF;
+
+  /* =========================================
+     JERARQUÍA DE TEXTOS
+     ========================================= */
+  --color-text-h1: #111827;
+  --color-text-h2: #1F2937;
+  --color-text-h3: #374151;
+  --color-text-h4: #4B5563;
+  --color-text-h5: #6B7280;
+  --color-text-h6: #9CA3AF;    
+    
+  --color-text-body: #52525c;
+  --color-text-label: #4B5563;
+  --color-text-caption: #6B7280;
+
+  /* =========================================
+     BORDER UNIVERSAL 
+     ========================================= */  
+
+  --color-border-general: #D4D4D8;
+
+  /* =========================================
+     ETIQUETAS DE SESIÓN (Badges)
+     ========================================= */
+  --color-etiqueta-text: #1D4ED8;
+  --color-etiqueta-border: #1D4ED8;
+  --color-etiqueta-bg: #EFF6FF;
+
+  /* =========================================
+     BOTONES
+     ========================================= */
+  /* Botón Primario */
+  --color-btn-primary-text: #FFFFFF;
+  --color-btn-primary-bg: #1D4ED8;
+
+  /* Botón Secundario */
+  --color-btn-secundario-text: #1D4ED8;
+  --color-btn-secundario-bg: #FFFFFF;
+  --color-btn-secundario-border: #D1D5DB;
+
+  /* Botón de Icono */
+  --color-btn-icon: #6B7280;
+  --color-btn-icon-bg: transparent;
+
+  /* =========================================
+     ENLACES
+     ========================================= */
+  --color-enlace-demo: #1D4ED8;
+  --color-enlace-repositorio: #4B5563;
+
+  /* =========================================
+     INPUTS
+     ========================================= */
+  /* Base del Input */
+  --color-input-bg: #FFFFFF;
+  --color-input-text: #111827;
+  --color-input-placeholder: #9CA3AF;
+  --color-input-border: #D1D5DB;
+
+  /* Estados del Input */
+  --color-input-focus-border: #1D4ED8;
+  --color-input-focus-ring: rgba(29, 78, 216, 0.2); /* Azul con 20% de opacidad */
+  
+  --color-input-error-border: #DC2626;
+  --color-input-error-text: #B91C1C;
+  --color-input-error-bg: #FEF2F2;
+
+  --color-input-disabled-bg: #F3F4F6;
+  --color-input-disabled-text: #9CA3AF;
+  --color-input-disabled-border: #E5E7EB;
+
+  /* Label del Input */
+  --color-label-text: #374151;
+  --color-label-required: #DC2626;
+
+  /* =========================================
+     SESIÓN PROBLEMA Y SOLUCIÓN
+     ========================================= */
+  --color-problema: #DC2626;
+  --color-solucion: #15803D;
+  --color-prob-solu-bg: #EFF6FF;
+}
